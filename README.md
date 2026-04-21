@@ -20,7 +20,7 @@ Puddle is a simple, educational programming language designed to help students u
 - Abstract Syntax Trees (ASTs)
 - Basic interpretation of code
 
-The language enforces strict rules to make parsing predictable, such as requiring all variable names to begin with the letter **Q**.
+The language enforces strict rules to make parsing predictable, such as requiring all variable names to begin with the letter **Q**. Filenames for this language have an extension of ".pud"
 
 Puddle is intentionally minimal and is used as a teaching tool rather than a production language.
 
