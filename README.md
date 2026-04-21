@@ -54,7 +54,7 @@ quack(,,,Direct output!,,,);
 
 ## Grammars
 
-<program>              ::= { <statement> }
+<program>              ::= { \<statement\> }
 
 <statement>            ::= <variable_declaration>
                          | <quack_statement>
