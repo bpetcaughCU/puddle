@@ -4,13 +4,13 @@
 
 ---
 
-## 📛 Name of the Language
+## Name of the Language
 
 **Puddle**
 
 ---
 
-## 🌊 Language Overview
+## Language Overview
 
 Puddle is a simple, educational programming language designed to help students understand how programming languages work internally. It introduces core concepts such as:
 
