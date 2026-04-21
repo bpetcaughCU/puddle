@@ -29,7 +29,7 @@ Puddle is intentionally minimal and is used as a teaching tool rather than a pro
 ## 💻 Example Code Snippet
 
 ```puddle
-// This is a comment
+~ This is a comment
 let Qx = 2;
 let Qy = 3;
 let Qmessage = ,,,Hello from Puddle,,,
@@ -50,7 +50,7 @@ quack(,,,Direct output!,,,);
 | Number Literal       | `123`                   | Integers only          |
 | Statement Ending     | `;`                     | Required               |
 | Parentheses          | `( )`                   | Used in function calls |
-| Comments             | `// comment`            | Single-line comments   |
+| Comments             | `~ comment`            | Single-line comments   |
 
 ## Grammars
 
