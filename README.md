@@ -54,29 +54,29 @@ quack(,,,Direct output!,,,);
 
 ## Grammars
 
-<program>              ::= { \<statement\> }
+\<program\>              ::= { \<statement\> }
 
-<statement>            ::= <variable_declaration>
-                         | <quack_statement>
-                         | <comment>
+\<statement\>            ::= \<variable_declaration\>
+                         | \<quack_statement\>
+                         | \<comment\>
 
-<variable_declaration> ::= "let" <identifier> "=" <expression> ";"
+\<variable_declaration\> ::= "let" \<identifier\> "=" \<expression\> ";"
 
-<quack_statement>      ::= "quack" "(" <expression> ")" ";"
+\<quack_statement\>      ::= "quack" "(" \<expression\> ")" ";"
 
-<expression>           ::= <term> | <term> "+" <term>
+\<expression\>           ::= \<term\> | \<term\> "+" \<term\>
 
-<term>                 ::= <identifier>
-                         | <number_literal>
-                         | <string_literal>
+\<term\>                 ::= \<identifier\>
+                         | \<number_literal\>
+                         | \<string_literal\>
 
-<identifier>           ::= "Q" { <letter> | <digit> }
+\<identifier\>           ::= "Q" { \<letter\> | \<digit\> }
 
-<number_literal>       ::= <digit> { <digit> }
+\<number_literal\>       ::= \<digit\> { \<digit\> }
 
-<string_literal>       ::= ",,," { <character> } ",,,"
+\<string_literal\>       ::= ",,," { \<character\> } ",,,"
 
-<comment>              ::= "~" { <character> }
+\<comment\>              ::= "~" { \<character\> }
 
 ## Group Members
 1. Professor Petcaugh
