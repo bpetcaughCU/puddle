@@ -121,3 +121,4 @@ if __name__ == "__main__":
     #tokens = lexer(full_program)
     ast = parse(tokens)
     print(json.dumps(ast, indent=2))
+    #interpreter(ast)
