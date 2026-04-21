@@ -1,6 +1,6 @@
 # 🦆 Puddle Programming Language
 
-![Puddle Language Image](puddle_image.png)
+<img src="puddle_image.png" width="300">
 
 ---
 
